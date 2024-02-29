@@ -1,0 +1,362 @@
+[
+  {
+  "id": 1,
+  "name": "Pork Sisig",
+  "category":"Main Dish",
+  "servingsize":5,
+  "difficultylevel":"Medium",
+  "time": { "preptime": "30 Minutes", "cooktime": "1 Hour and 30 Minutes"},
+  "classification":{ "cuisinetype": "Filipino Dish", "originplace": "Philippines" },
+  "ingredients":
+  [
+    "1 lb pig ears",
+    "1 lb. pig snout", 
+    "1 lb pork belly",
+    "2 pieces onions (minced)",
+    "3 pieces bay leaves",
+    "2 teaspoons salt",
+    "4 thumbs ginger (minced)",
+    "1 quarts water",
+    "1/2 cup Mayonnaise",
+    "2 tablespoons vinegar",
+    "1/4 teaspoon ground black pepper",
+    "1 teaspoon salt",
+    "1 teaspoon sugar", 
+    "1/4 cup liver spread", 
+    "2 limes",
+    "1 tablespoon Knorr Liquid Seasoning"
+    ],
+  "procedure":
+  [
+    "Combine pig ears, snout, pork belly, ginger, bay leaves, 2 teaspoons salt, and 1 quart of water in a cooking pot. Boil for 1 hour. Remove from the pot and drain the water.",
+    "Heat-up your grill. Start grilling the pig parts for around 5 minutes per side. Remove from the grill afterwards and let it cool down. Make the dressing by combining all the dressing ingredients. Mix well.",
+    "Chop the grilled pig parts into small pieces. In a large mixing bowl, combine the chopped pork with onion and the dressing mixture. Toss until all the ingredients are well blended."
+    ]
+  }
+  ,
+  {
+  "id": 2,
+  "name": "Bicol Express",
+  "category": "Main dish",
+  "servingsize":5,
+  "difficultylevel": "Medium ",
+  "time": {"preptime":"5 Minutes" , "cooktime":"55 Minutes" },
+  "classification": { "cuisinetype": "Filipino Dish", "originplace": "Bicol, Philippines"},
+  "ingredients":
+  [
+    "1.67 lbs. pork belly sliced into strips",
+    "376.67 g coconut milk",
+    "400 g coconut cream",
+    "52.08 g shrimp paste bagoong alamang", 
+    "3.33 cloves garlic crushed",
+    "5 pieces Thai chili pepper chopped", 
+    "0.83 thumb ginger minced",
+    "0.83 piece onion chopped",
+    "0.83 pieces Serrano pepper sliced",
+    "197.16 g water (optional)"
+    ],
+  "procedure":
+  [
+    "Combine ginger, garlic, onion, Thai chili pepper, pork, and coconut milk in a pan. Mix well. Cover the pan and turn the heat on. Let the mixture boil.",
+    "Remove the cover. Stir. Add half of the bagoong and pour around 1 cup of coconut cream and a cup of water. Stir and adjust the heat to low. Cook until the sauce reduces to a quarter (around 50 minutes).",
+    "Add the remaining coconut cream and bagoong alamang (as needed). Also add the Serrano peppers. Continue cooking in low heat until the sauce thickens around."
+    ]
+  }
+  ,
+  {
+    "id": 3,
+    "name": "Mango Graham Cake",
+    "category": "Dessert",
+    "servingsize":5,
+    "difficultylevel": "Easy",
+    "time": {"preptime":"10 Minutes" , "cooktime":"4 Hours" },
+    "classification": { "cuisinetype": "Filipino Dish", "originplace": "Philippines"},
+    "ingredients":
+    [
+      "2 Ripe Mangoes",
+      "1 Pint / 475 mls of Whipping Cream",
+      "14oz / 400g of Sweetened Condensed Milk ( I used about 3/4 of this Tin)",
+      "1 Packet of Graham Crackers or any Oatmeal Biscuits."   
+    ],
+    "procedure":
+    [
+      "Peel, slice and dice the mango into small cubes. Pour the cream into a bowl and whip until you have stiff peaks. Add the condensed milk and stir through until mixed.",
+      "Place a layer of the the Graham Crackers into your dish. Spoon on some of the cream and spread over the crackers.",
+	    "Cover the cream with a layer of the dices mangoes.",
+	    "Repeat steps 1-3 about 4 to 6 times. Top with the last layer of crackers. Cover the crackers with the cream and make as smooth as you can. Crush up some of the crackers till you have fine cracker crumbs and sprinkle on top of the cream.",
+      "Place in the fridge to chill right through and allow the crackers to soften up and become fluffy. Once the Graham Cake has chilled (I like to leave it overnight) it is ready to be served. You can either spoon it into dishes or slice it and gently lift the slice on to a plate."
+    ]
+  }
+  ,
+  {
+    "id": 4,
+    "name": "Beef Kare-Kare",
+    "category": "Main dish",
+    "servingsize":6,
+    "difficultylevel": "Medium",
+    "time": {"preptime":"15 Minutes" , "cooktime":"2 Hours" },
+    "classification": { "cuisinetype": "Filipino Dish", "originplace": "Philippines"},
+    "ingredients":
+    [
+      "1/4 kg beef",
+      "1/4 kg tripe",
+      "1 cup of peanut butter",
+      "1/4 cup grounded toasted rice",
+      "1/2 cup cooked Bagoong Alamang",
+      "1 large onion, diced",
+      "3 cloves of garlic, minced",
+      "1 tablespoon atsuete seeds",
+      "2 pieces eggplant, sliced 1 inch thick",
+      "1 bundle Bok Choy (Pechay)",
+      "1 bundle of String Beans",
+      "1 bundle of okra",
+      "3 tbsp. oil",
+      "5 cups of water"
+    ],
+    "procedure":
+    [
+      "Boil the Beef and Tripe in water for an hour or until cooked.",
+      "Strain and keep the stock.",
+      "Heat oil and atsuete seeds in a pan. Removed the seeds.",
+      "Sauté garlic, onions until golden brown.",
+      "Add the stock, toasted rice and peanut butter. Add the beef and tripe.",
+      "Bring to a boil and simmer for 15 minutes.",
+      "Salt to taste.",
+      "Add the Eggplant, String Beans, Bok Choy and Okra (If available only).",
+      "Cook the vegetables for 5 minutes.",
+      "Do not overcook the vegetables.",
+      "Serve with Rice and Bagoong"
+    ]
+  }
+  ,
+  {
+    "id": 5,
+    "name": "Peanut Butter Kiss Cookies",
+    "category": "Dessert",
+    "servingsize":30,
+    "difficultylevel": "Easy",
+    "time": {"preptime":"20 Minutes" , "cooktime":"10 Minutes" },
+    "classification": { "cuisinetype": "Filipino Dish", "originplace": "Bicol, Philippines"},
+    "ingredients":
+    [
+      "1 cup peanut butter",
+      "1 cup sugar",
+      "1 large egg, room temperature",
+      "1 teaspoon vanilla extract",
+      "30 milk chocolate kisses"
+    ],
+    "procedure": 
+    [
+      "Preheat oven to 350°. Cream peanut butter and sugar until light and fluffy. Beat in egg and vanilla.",
+      "Roll into 1-1/4-in. balls. Place 2 in. apart on ungreased baking sheets. Bake until tops are slightly cracked, 10-12 minutes. Immediately press 1 chocolate kiss into center of each cookie. Cool for 5 minutes before removing from pans to wire racks."
+    ]
+  }
+  ,
+  {
+    "id": 6,
+    "name": "Vanilla Meringue Cookies",
+    "category": "Dessert",
+    "servingsize":60,
+    "difficultylevel": "Medium",
+    "time": {"preptime":"20 Minutes" , "cooktime":"40+ Minutes" },
+    "classification": { "cuisinetype": "French Dish", "originplace": "France"},
+    "ingredients":
+    [
+      "3 large egg whites",
+      "1-1/2 teaspoons clear or regular vanilla extract",
+      "1/4 teaspoon cream of tartar",
+      "Dash salt",
+      "2/3 cup sugar"
+    ],
+    "procedure":
+    [
+      "Place egg whites in a small bowl; let stand at room temperature 20 minutes.",
+      "Meanwhile, preheat oven to 250°. Add vanilla, cream of tartar and salt to egg whites; beat on medium speed until foamy. Gradually add sugar, 1 tablespoon at a time, beating on high after each addition, until sugar is dissolved. Continue beating until stiff glossy peaks form, about 7 minutes.",
+      "Attach a #32 star tip to a pastry bag. Transfer meringue to bag. Pipe 1-1/4-in.-diameter cookies 2 in. apart onto parchment-lined baking sheets.",
+      "Bake until firm to touch, 40-45 minutes. Turn off oven; leave meringues in oven 1 hour (leave oven door closed). Remove from oven, cool completely on baking sheets. Remove meringues from paper, store in airtight containers at room temperature."
+    ]
+  }
+  ,
+  {
+    "id": 7,
+    "name": "Pork Sinigang",
+    "category": "Main Dish",
+    "servingsize":4,
+    "difficultylevel": "Easy",
+    "time": {"preptime":"20 Minutes" , "cooktime":"1 Hour" },
+    "classification": { "cuisinetype": "Filipino Dish", "originplace": "Philippines"},
+    "ingredients":
+    [
+      "4¼ cups water",
+      "2 cups pork spare rib cut into chunks",
+      "1 pc red onion, quartered",
+      "2 pcs medium sized tomato, quartered",
+      "8 pcs sitaw, sliced into 2” pieces",
+      "250 g kangkong stalk and leaves",
+      "1 pc talong, sliced",
+      "2 pcs siling pangsigang",
+      "1 (20g) pack Knorr Sinigang sa Sampalok Mix Original",
+      "Optional: labanos, okra"
+    ],
+    "procedure":
+    [
+      "Begin by washing pork spare ribs in cold running water to remove any visible impurities. Then, place pork ribs submerge in a medium pot with a liter of water. Bring to a boil without covering the pot and allow the scum to float to the surface. Meticulously remove the scums from the surface of the water using a slotted spoon or a spatula. Scums are impurities found in meat.",
+      "After the broth clears up, turn you heat to medium setting, then its time toss in your onions and tomatoes to add flavor to the broth. Cover your pot and let it simmer to fully cook your meat. Use a fork to pierce the meat so that the flavors would also enter the meaty parts of the spare ribs, You also do this so you can tell if its already set and tender.",
+      "You can already add your vegetables. Start by adding the sitaw, kangkong stalks and talong into the pot and cook until these turn dark green. If you decide to use labanos and okra, you can also add those at this point. This should take roughly around 2-3 minutes.",
+      "Add in your siling sigang, kangkong leaves and the Knorr Sinigang sa Sampaloc Mix. Stir and let it simmer. It should be done in about 2-3 minutes.",
+      "All done! Transfer your Sinigang to a serving bowl. This is a happy treat that warms, soothes and satisfies everyone in the family! Remember to prepare extra servings of rice to enjoy the extra asim kilig taste of this Filipino classic soup"
+    ]
+  }
+  ,
+  {
+    "id": 8,
+    "name": "Smashed Potato",
+    "category": "Side Dish",
+    "servingsize": 4,
+    "difficulty level": "Easy",
+    "time": {"preptime": "30 Minutes" , "cooktime": "25 Minutes" },
+    "classification": { "cuisinetype": "America Dish", "originplace": "United States"},
+    "ingredients": 
+    [
+      "1 lb. baby Yukon Gold potatoes",
+      "Kosher salt",
+      "4 tbsp. melted butter",
+      "2 cloves garlic, minced",
+      "1 tsp. fresh thyme leaves",
+      "Freshly ground black pepper",
+      "1/2 c. freshly grated Parmesan"
+    ],
+    "procedure":
+    [
+      "Preheat oven to 425°. In a large pot, cover potatoes with water and add a generous pinch of salt. Bring water to a boil and simmer until potatoes are tender, about 15 minutes. Drain and let sit until cool enough to handle.",
+      "On a large rimmed baking sheet, toss potatoes with melted butter, garlic, and thyme. Using bottom of a small glass or mason jar, press down on potatoes to smash them into flat patties.",
+      "Season with salt and pepper, then sprinkle with Parmesan.",
+      "Bake until bottoms of potatoes are beginning to crisp and Parmesan is golden, about 25 minutes."
+    ]
+  }
+  ,
+  {
+    "id": 9,
+    "name": "French Fries all'Assassina",
+    "category": "Side Dish",
+    "servingsize": 4,
+    "difficultylevel": "Easy",
+    "time": {"preptime": "10 Minutes" , "cooktime": "30 Minutes" },
+    "classification": { "cuisinetype": "Italian Dish", "originplace": "Italy"},
+    "ingredients":[
+      "3 tablespoons tomato paste",
+      "1/4 cup olive oil",
+      "3 cloves garlic, finely crushed or minced",
+      "1/2 teaspoon granulated garlic",
+      "1 1/2 teaspoons red pepper flakes",
+      "1/4 teaspoon cayenne pepper",
+      "1/4 teaspoon freshly ground black pepper",
+      "1/8 teaspoon kosher salt",
+      "16 ounces frozen crinkle cut French fries",
+      "2 ounces Parmigiano-Reggiano cheese",
+      "1 teaspoon chopped fresh Italian parsley (optional)"
+    ],
+    "procedure":
+    [
+      "Preheat the oven to 450 degrees F (230 degrees C). Line a baking sheet with parchment.",
+      "Add tomato paste, olive oil, crushed garlic, granulated garlic, red pepper flakes, cayenne, black pepper, and salt to a large mixing bowl, and whisk thoroughly to combine.",
+      "Add the fries in using your hands, a few at a time; make sure fries are all separated, and no ice goes into the bowl.",
+      "Toss gently with a spatula until every fry is completely and evenly coated.",
+      "Use a microplane or other very fine grater to grate a dusting of Parmigiano-Reggiano over the top of the fries. Toss with spatula until evenly mixed in, and then repeat for a total of 2 grated cheese additions.",
+      "Transfer fries to the prepared baking sheet in a single, even layer; space out as evenly as possible. Grate Parmigiano-Reggiano over the top until every fry is covered.",
+      "Bake in the preheated oven until the fries are very well browned, charred in spots, and the edges of the fries have crisped up, 30 to 35 minutes. Depending on the size and shape of your frozen fries, you may need to bake longer, but start checking at 30 minutes.",
+      "Grated additional Parmigiano-Reggiano over fries, sprinkle with chopped parsley, and serve immediately."
+    ]
+  }
+  ,
+  {
+    "id": 10,
+    "name": "Garlic Bread",
+    "category": "Side Dish",
+    "servingsize": 6,
+    "difficultylevel": "Easy",
+    "time": {"preptime": "10 Minutes" , "cooktime": "10 Minutes" },
+    "classification": { "cuisinetype:": "Italian Dish", "originplace": "Italy"},
+    "ingredients":
+    [
+      "4 cloves garlic, finely chopped",
+      "1/2 c. (1 stick) unsalted butter, softened",
+      "2 tbsp. chopped fresh parsley",
+      "1/2 tsp. kosher salt",
+      "1 baguette or loaf French bread, halved lengthwise",
+      "1/4 c. finely grated Parmesan"
+    ],
+    "procedure":
+    [
+      "Preheat oven to 425° and line a large baking sheet with foil. In a small bowl, mix garlic, butter, parsley, and salt until well combined.",
+      "Liberally spread cut sides of bread with garlic butter. Sprinkle with Parmesan. Arrange on prepared sheet.",
+      "Bake bread until  toasty and golden at the edges, about 10 minutes."
+    ]
+  }
+  ,
+  {
+    "id": 11,
+    "name": "Chicken Adobo",
+    "category": "Main Dish",
+    "servingsize": 5,
+    "difficultylevel": "Medium",
+    "time": {"preptime":"5  Minutes" , "cooktime":"35 Minutes" },
+    "classification": { "cuisinetype": "Filipino Dish", "originplace": "Philippines"},
+    "ingredients":
+    [
+      "2 lbs chicken",
+      "3 pieces dried bay leaves",
+      "6 tablespoons soy sauce",
+      "4 tablespoons white vinegar",
+      "5 cloves garlic", 
+      "1/2 cups water",
+      "3 tablespoons cooking oil",
+      "1 teaspoon sugar",
+      "1/4 teaspoon salt ",
+      "1 teaspoon whole peppercorn"
+    ],
+    "procedure":
+    [
+      "Combine chicken, soy sauce, and garlic in a large bowl. Mix well. Marinate the chicken for at least 1 hour.",
+      "Heat a cooking pot. Pour cooking oil.",
+      "When the oil is hot enough, pan-fry the marinated chicken for 2 minutes per side.",
+      "Pour-in the remaining marinade, including garlic. Add water. Bring to a boil",
+      "Add dried bay leaves and whole peppercorn. Simmer for 30 minutes or until the chicken gets tender",
+      "Add vinegar. Stir and cook for 10 minutes.",
+      "Put-in the sugar, and salt. Stir and turn the heat off. Serve hot."
+    ]
+  }
+  ,
+  {
+    "id": 12,
+    "name": "Chicken Tinola",
+    "category": "Main Dish",
+    "serving size": 5,
+    "difficulty level": "Medium",
+    "time": {"preptime":"10 Minutes" , "cooktime":"1 Hour" },
+    "classification": { "cuisinetype": "Filipino Dish", "originplace": "Philippines"},
+    "ingredients":
+    [
+      "2 lbs chicken",
+      "3 pieces dried bay leaves",
+      "6 tablespoons soy sauce",
+      "4 tablespoons white vinegar", 
+      "5 cloves garlic",
+      "1 1/2 cups water",
+      "3 tablespoons cooking oil",
+      "1 teaspoon sugar",
+      "1/4 teaspoon salt",
+      "1 teaspoon whole peppercorn"
+    ],
+    "procedure":
+    [
+      "Sauté the garlic, onion, and ginger",
+      "Put-in the chicken and cook until color turns light brown",
+      "Add the fish sauce. Stir. Pour rice washing into the cooking pot. Let boil. Cover the pot and simmer for 45 minutes.",
+      "Add green papaya. Cook for 5 minutes",
+      "Add the hot pepper leaves or malunggay leaves. Stir and cook for 1 minute.",
+      "Season with ground black pepper. Note you can also add fish sauce or salt if needed.",
+      "Transfer to a serving bowl. Serve hot."
+    ]
+  }
+]
