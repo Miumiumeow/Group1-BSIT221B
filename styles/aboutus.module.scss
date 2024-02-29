@@ -1,0 +1,173 @@
+.body{
+    color: white;
+
+    h1{
+        font-size: 75px;
+        margin: 5% 0%;
+    }
+
+    h2{
+        color: #E7AE25;
+        font-size: 60px;
+        margin: 2% 0%;
+    }
+
+    p{
+        font-size: 32px;
+        padding: 0% 20% 5%;
+    }
+    
+
+    .decorline {
+        height: 2px;
+        background-color: #333;
+        width: 80%; 
+        margin: 20px 100px 0px;
+    }
+
+    .goal{
+        height: 80vh;
+        width: auto;
+        background-color: #4e3a0aad;
+        display: flex;
+        margin: 2% 0%;
+        flex-direction: row;
+        text-align: center;
+        align-items: center;
+        
+        .left, .right{
+            height: 100%;
+            width: 30%;
+
+            border: solid 1px gold;
+
+            .abtdesign{
+                width: 70%;
+            }
+        }
+
+        .mid{
+            height: 100%;
+            width: 40%;
+            padding: 2% 0;
+
+            border: solid 1px green;
+
+
+            h1{
+                font-size: 55px;
+                margin-bottom: 8%;
+            }
+
+            p{
+                font-size: 35px;
+                margin: 0% -35% 10%;
+            }
+
+            .button {
+                margin-top: 100%;
+                padding: 15px 80px;
+                background-color: #4E3A0A;
+                border: none;
+                border-radius: 25px;
+                color: white;
+                font-size: 30px;
+                cursor: pointer;
+              
+                  &:hover {
+                  background-color: #2980b9;
+                }
+              
+                  &:active {
+                  background-color: #2471a3;
+                }
+            }
+        }
+
+    }
+}
+
+
+@media screen and (max-width: 1024px){
+    .body{
+    
+        h1{
+            font-size: 55px;
+            margin: 5% 0%;
+        }
+
+        h2{
+            color: #E7AE25;
+            font-size: 40px;
+            margin: 2% 0%;
+        }
+
+        p{
+            font-size: 22px;
+            padding: 0% 20% 5%;
+        }
+        
+    
+        .decorline {
+            height: 2px; // Thickness of the line
+            background-color: #333; // Color of the line
+            width: 80%; // Width of the line
+            margin: 20px 100px 0px;
+        }
+    
+        .goal{
+            height: 50vh;
+            width: auto;
+            margin: 2% 0%;
+            background-color: #4e3a0aad;
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            align-items: center;
+            
+            .left, .right{
+                height: 100%;
+                width: 30%;
+    
+                .abtdesign{
+                    width: 70%;
+                }
+            }
+    
+            .mid{
+                height: 100%;
+                width: 40%;
+    
+                h1{
+                    font-size: 40px;
+                    margin: 12% 0% 8%;
+                }
+    
+                p{
+                    font-size: 20px;
+                    margin: 0% -35% 10%;
+                }
+    
+                .button {
+                    margin-top: 100%;
+                    padding: 15px 80px;
+                    background-color: #4E3A0A;
+                    border: none;
+                    border-radius: 25px;
+                    color: white;
+                    font-size: 22px;
+                    cursor: pointer;
+                  
+                      &:hover {
+                      background-color: #2980b9;
+                    }
+                  
+                      &:active {
+                      background-color: #2471a3;
+                    }
+                }
+            }
+    
+        }
+    }
+}
