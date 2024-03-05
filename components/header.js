@@ -4,7 +4,9 @@ function meh() {
     return (
         <>
         <div className={styles.cont}>
-            <h1>Header Component</h1>
+            <input 
+                type="text"
+                    placeholder="Search recipes"></input>
         </div>
         </>
     )

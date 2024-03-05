@@ -2,13 +2,12 @@ import Header from '@/components/header';
 import Subheader from '@/components/subheader';
 import styles from '@/styles/recipe.module.scss';
 
-function meh() {
+function main() {
     return (
-        <>
-            <Header />
-            <Subheader />
-            <section className={styles.cont}>
-                <h1>This is the Recipes Page</h1>
+    <>
+        <Header />
+        <Subheader/>
+        <section className={styles.cont}>
                 <div className={styles.container}>
                     
                     <div className={styles.card}>
@@ -50,13 +49,51 @@ function meh() {
                     </div>
                     </div>
 
+                    <div className={styles.card}>
+                        <div><img className={styles.homedesign} src='/images/sigsig.jpg'></img>
+                    <h1>PORK SISIG</h1>
+                    <p>
+                        Country Origin: Philippines <br />
+                        Difficulty Level: Medium <br />
+                        Total Time: 1 hour 30 minutes <br />
+                    </p>          
+                    
+                    <a href='./desserts'>View more</a>
+                    </div>
+                    </div>
 
-                
+                    <div className={styles.card}>
+                        <div><img className={styles.homedesign} src='/images/bicol.png'></img>
+                    <h1>BICOL EXPRESS</h1>
+                    <p>
+                        Country Origin: Philippines <br />
+                        Difficulty Level: Medium <br />
+                        Total Time: 55 minutes <br />
+                    </p>          
+                    
+                    <a href='./desserts'>View more</a>
+                    </div>
+                    </div>
+
+                    <div className={styles.card}>
+                        <div><img className={styles.homedesign} src='/images/karekare.jpg'></img>
+                    <h1>BEEF KARE-KARE</h1>
+                    <p>
+                        Country Origin: Philippines <br />
+                        Difficulty Level: Medium <br />
+                        Total Time: 2 hour 15 minutes <br />
+                    </p>          
+                    
+                    <a href='./desserts'>View more</a>
+                    </div>
+                    </div>
+
+                    
 
                 </div>
             </section>
-        </>
-        )
+    </>
+    )
 }
 
-export default meh
+export default main

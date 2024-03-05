@@ -6,10 +6,14 @@ function subheader(){
         <>
         <section className={styles.subhead}>
             <hr className={styles.subline}/>
-            Subheader ni Recipe para sa main.side.desserts
+            <div className={styles.mainnav}>
+            <a href='/main'>Main</a>
+            <a href='./sides'>Sides</a>
+            <a href='./desserts'>Desserts</a>
+          </div>
             <hr className={styles.subline}/>
         </section>
-        
+
         </>
     )
 }
