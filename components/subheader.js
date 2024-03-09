@@ -1,6 +1,7 @@
 import styles from '@/styles/recipe.module.scss';
 
-
+// eto ung header for the filtering na main, sides, desserts 
+// this ung subnav component sa docu last time
 function subheader(){
     return(
         <>
