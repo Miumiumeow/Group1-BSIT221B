@@ -1,36 +1,36 @@
 .recipe_container {
     background-color: antiquewhite;
     display: flex;
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
+    justify-content: center;
+    align-items: center;
     margin: 50px;
     border-radius: 30px;
+}
 
-    .title_container{
+.title_container {
+    p {
+        font-weight: bold;
+    }
 
-        p{
-            font-weight: bold;
-        }
-
-        h1{
-            margin: 0;
-            font-size: 60px;
-        }
+    h1 {
+        margin: 0;
+        font-size: 60px;
     }
 }
 
 .image_container {
-    max-width: 100%; /* Make sure the container doesn't exceed the width of its parent */
-    max-height: 900px; /* Set a maximum height for the image container */
-    display: flex; /* Use flexbox */
-    justify-content: center; /* Center the content horizontally */
-    align-items: center; /* Center the content vertically */
+    max-width: calc(100% - 40px); /* Adjusted to include margin */
+    max-height: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px; /* Add margin around the image */
 
     img {
         border-radius: 30px;
-        max-width: 80%; /* Make the image fill the container width */
-        height: auto; /* Let the browser calculate the height to preserve aspect ratio */
-        object-fit: cover; /* Scale the image while preserving aspect ratio */
+        max-width: 100%;
+        height: auto;
+        object-fit: cover;
     }
 }
 
@@ -39,49 +39,57 @@
     display: flex;
     flex-direction: column;
 }
-  
+
 .top_container {
     background-color: aqua;
     display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
     justify-content: space-between;
 }
-  
+
 .bottom_container {
     background-color: burlywood;
     display: flex;
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
     justify-content: space-between;
 }
-  
+
 .left_item,
-.right_item {
-    width: 45%; /* Adjust as needed */
-}
-  
+.right_item,
 .leftbtm_item,
 .rightbtm_item {
-    width: 45%; /* Adjust as needed */
+    width: 100%; /* Initially, items take full width */
+    margin-bottom: 10px; /* Add some space between items */
+}
+
+/* Adjust widths for smaller screens */
+@media (min-width: 768px) {
+    .left_item,
+    .right_item,
+    .leftbtm_item,
+    .rightbtm_item {
+        width: 48%; /* Adjusted width for larger screens */
+    }
 }
 
 .button {
     margin: 0;
-    display: flex; /* Use flexbox */
-    align-items: center; /* Center the content vertically */
-    min-width: 100px; /* Adjust minimum width as needed */
+    display: flex;
+    align-items: center;
+    min-width: 100px;
     text-decoration: none;
 }
 
 .button img {
-    width: 200px; /* Adjust width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 10px; /* Adjust spacing between image and text */
-    transition: width 0.3s ease; /* Smooth transition for width changes */
+    width: 200px;
+    height: auto;
+    margin-right: 10px;
+    transition: width 0.3s ease;
 }
 
 /* For responsiveness */
 @media (max-width: 768px) {
     .button img {
-        width: 100px; /* Adjust width for smaller screens */
+        width: 100px;
     }
 }
-
-  

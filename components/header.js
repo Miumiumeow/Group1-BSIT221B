@@ -14,7 +14,6 @@ function Header() {
                 <a href='./about'>About Us</a>
             </div>
         </section>
-        <hr className={styles.decorline}/>
         </>
     )
 }

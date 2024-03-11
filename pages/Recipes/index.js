@@ -28,25 +28,28 @@ function Recipe({ recipes }) {
 
     return(
         <>
-        <Header />
+        <Header/>
+        
+        <div className={styles.categories}>
+            <div className={cinzel.className}>
+                <h1> Explore Recipes </h1>
+            </div>
+        </div>
+
         <br></br>
         <br></br>
-        <input
-            type="text"
-            placeholder="Search by name of recipe.."
-            value={searchTerm}
-            onChange={handleChange}
-            />
+        <input type="text" className={styles.search_bar} placeholder="Search by name of dish..." value={searchTerm} onChange={handleChange}/>
         <br></br>
-        <br></br>
-        <div className={styles.recipecard_container}>
+        <br></br> 
+
+        <section className={styles.recipecard_container}>
             {filteredRecipes.map(i=> {
                 return(
-                    <div className={styles.recipecard}>
+                    <section className={styles.recipecard}>
 
                         <div key ={i.id}>
 
-                            <img src ={i.image}/>
+                            <img src={i.image}/>
 
                             <div className={cinzel.className}>
                                 <p className={styles.name}>{i.name}</p>
@@ -62,11 +65,11 @@ function Recipe({ recipes }) {
 
                         </div>
 
-                    </div> 
+                    </section> 
                 )
             })
             }
-        </div>
+        </section>
         </>
     )
 }

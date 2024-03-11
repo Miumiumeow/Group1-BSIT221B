@@ -1,18 +1,43 @@
 .cont{
+  margin: 50px;
   display: flex;
   flex-direction: row;
 
   .leftdiv{
-    width: 65%;
+    width: 70%;
     text-align: center;
-
-    .mainnav{
-      padding-top: 10%;
+    
+    .mainnav a {
       font-size: 25px;
+      margin: 40px;
+      font-size: 30px;
+      color: white;
+      text-decoration: none;
+      position: relative;
+      transition: color 0.3s ease;
+    }
+    
+    .mainnav a::after {
+      content: '';
+      display: block;
+      width: 0;
+      height: 1px;
+      background-color: transparent;
+      position: absolute;
+      bottom: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      transition: width 0.3s ease, background-color 0.3s ease;
+    }
 
-      a{
-        padding-left: 5%;
-      }
+    .mainnav a:hover{
+      color: #E7AE25;
+    }
+    
+    .mainnav a:hover::after {
+      width: 120%; 
+      color: #E7AE25;
+      background-color: #E7AE25;
     }
 
     .homelogo{
@@ -34,6 +59,7 @@
     }
 
     .button {
+      text-decoration: none;
       margin-top: 100%;
       padding: 15px 80px;
       background-color: #4E3A0A;
@@ -42,15 +68,14 @@
       color: white;
       font-size: 22px;
       cursor: pointer;
-    
-        &:hover {
-        background-color: #2980b9;
-      }
-    
-        &:active {
-        background-color: #2471a3;
-      }
+      transition: background-color 0.3s, color 0.3s; /* Add transition for background-color and color */
     }
+    
+    .button:hover {
+      background-color: #261c05; /* Change background color on hover */
+      color: #ffffff; /* Change text color on hover */
+    }
+    
 
 
   }
