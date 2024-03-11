@@ -7,7 +7,7 @@ function Home() {
       <section className={styles.cont}>
         <section className={styles.leftdiv}>
           <div className={styles.mainnav}>
-            <a href='./index'>Home</a>
+            <a href='./.'>Home</a>
             <a href='./Recipes'>Recipes</a>
             <a href='./about'>About Us</a>
           </div>

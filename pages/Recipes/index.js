@@ -28,12 +28,17 @@ function Recipe({ recipes }) {
 
     return(
         <>
+        <Header />
+        <br></br>
+        <br></br>
         <input
             type="text"
             placeholder="Search by name of recipe.."
             value={searchTerm}
             onChange={handleChange}
             />
+        <br></br>
+        <br></br>
         <div className={styles.recipecard_container}>
             {filteredRecipes.map(i=> {
                 return(

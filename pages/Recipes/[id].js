@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import styles from '@/styles/recipepage.module.scss';
+import Header from '@/components/header';
 import { Cinzel } from 'next/font/google';
 import { Crimson_Pro } from 'next/font/google';
 
@@ -12,11 +13,12 @@ const crimson = Crimson_Pro({ subsets: ['latin'] })
 function RecipeBox( {recipe} ){
     return(
         <>
+        <Header />
         <div className={styles.recipe_container}>
             <div key={recipe.id}>
 
                 <div>
-                    
+    
                     <a href="/Recipes" class={styles.button}> <img src="/static/images/backbtn.png" alt="Back" /></a>
                 
                     <div className={styles.image_container}>
