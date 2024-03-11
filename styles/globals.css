@@ -4,7 +4,7 @@ body{
   margin: 0;
   padding: 0;
   /*add ng /static para mag ano ung background*/
-  background-image: url('/images/bgimage.png');
+  background-image: url('/static/images/bgimage.png');
   background-size: cover;
 
   text-align: center;

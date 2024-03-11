@@ -1,0 +1,87 @@
+.recipe_container {
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    margin: 50px;
+    border-radius: 30px;
+
+    .title_container{
+
+        p{
+            font-weight: bold;
+        }
+
+        h1{
+            margin: 0;
+            font-size: 60px;
+        }
+    }
+}
+
+.image_container {
+    max-width: 100%; /* Make sure the container doesn't exceed the width of its parent */
+    max-height: 900px; /* Set a maximum height for the image container */
+    display: flex; /* Use flexbox */
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+
+    img {
+        border-radius: 30px;
+        max-width: 80%; /* Make the image fill the container width */
+        height: auto; /* Let the browser calculate the height to preserve aspect ratio */
+        object-fit: cover; /* Scale the image while preserving aspect ratio */
+    }
+}
+
+.information_container {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+  
+.top_container {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.bottom_container {
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+}
+  
+.left_item,
+.right_item {
+    width: 45%; /* Adjust as needed */
+}
+  
+.leftbtm_item,
+.rightbtm_item {
+    width: 45%; /* Adjust as needed */
+}
+
+.button {
+    margin: 0;
+    display: flex; /* Use flexbox */
+    align-items: center; /* Center the content vertically */
+    min-width: 100px; /* Adjust minimum width as needed */
+    text-decoration: none;
+}
+
+.button img {
+    width: 200px; /* Adjust width as needed */
+    height: auto; /* Maintain aspect ratio */
+    margin-right: 10px; /* Adjust spacing between image and text */
+    transition: width 0.3s ease; /* Smooth transition for width changes */
+}
+
+/* For responsiveness */
+@media (max-width: 768px) {
+    .button img {
+        width: 100px; /* Adjust width for smaller screens */
+    }
+}
+
+  

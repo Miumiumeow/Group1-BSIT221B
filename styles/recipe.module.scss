@@ -11,33 +11,97 @@
     }
 }
 
-.cont{
-    color: white;
-}
-.container{
-    position: relative;
-    width: 1100px;
+.recipecard_container {
     display: flex;
-    justify-content:center;
-    align-items: center;
     flex-wrap: wrap;
-    padding: 30px;
-    margin-top: 8%;
-
+    justify-content: space-between;
+    padding: 0 25px; /* Add padding to create margin from the screen edges */
+    transition: margin-top 0.3s ease; /* Add transition for smooth movement */
 }
-.container .card{
-    width:308px;
+
+.recipecard:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+    background-color: rgba(241, 191, 75, 0.577);
+}
+
+.recipecard:hover img {
+    transform: scale(1.1); /* Scale up the image on hover */
+}
+
+.recipecard {
     position: relative;
-    height: 700px;
-    background:#4E3A0A;
-    margin:30px 10px;
-    padding: 20px 15px;
-    display: flex;
-    flex-direction: row;
-    
+    background-color: rgba(231, 174, 37, 0.54);
+    width: calc(50% - 10px); /* Adjusted width for two cards in a row */
+    margin-bottom: 30px;
+    border-radius: 30px;
+    box-sizing: border-box;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* Include background-color in transition */
+
+    img {
+        object-fit: cover;
+        margin: 20px;
+        border-radius: 30px;
+        width: 80%;
+        height: 200px;
+        transition: width 0.3s ease, height 0.3s ease;
+        transition: transform 0.3s ease;
+    }
+
+    .name {
+        margin: 0;
+        font-size: 25px;
+        font-weight: bold;
+        color: white;
+
+    }
+
+    .variables {
+        font-size: 18px;
+        color: white;
+    }
+
+    .viewbtn {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 60%;
+        height: 50px;
+        background-color: rgba(78, 58, 10, 1);
+        border-radius: 0 30px 30px 0;
+        color: white;
+        text-decoration: none;
+        font-style: italic;
+        font-size: 16px;
+        transition: padding 0.3s, color 0.3s;
+        overflow: hidden;
+    }
+
+    .viewbtn:hover {
+        padding-right: 30px;
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+    .viewbtn span {
+        display: inline-block;
+        margin-left: 10px;
+        transition: margin 0.3s;
+    }
+
+    .viewbtn:hover span {
+        margin-left: 50px;
+    }
 }
 
-.homedesign{
-    width: 50%;
-    margin-bottom: 5%;
-  }
+@media (min-width: 768px) {
+    .recipecard {
+        width: calc(28% - -4%); /* Adjusted width for three cards in a row */
+    }
+}
+
+@media (max-width: 576px) {
+    .recipecard {
+        width: calc(100% - 20px); /* Adjusting width for even smaller screens */
+    }
+}
