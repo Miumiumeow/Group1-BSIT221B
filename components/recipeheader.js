@@ -1,5 +1,4 @@
-import styles from '@/styles/header.module.scss';
-import recipeData from '@/components/recipe.json';
+import styles from '@/styles/recipeheader.module.scss';
 
 function RecipeIdHeader() {
     return (
@@ -8,7 +7,7 @@ function RecipeIdHeader() {
             <div className={styles.logobox}>
                 <img className={styles.navlogo} src='/static/images/savorscapeslogo.png'></img>
             </div>
-            <div className={styles.mainnav}>
+            <div className={styles.recipenav}>
                 <a href='.../index'>Home</a>
                 <a href='../Recipes'>Recipes</a>
                 <a href='../about'>About Us</a>
