@@ -2,7 +2,7 @@
   {
   "id": 1,
   "name": "Pork Sisig",
-  "category":"Main Dish",
+  "category":"main dish",
   "image": "static/images/porksisig.jpg",
   "servingsize":"5",
   "difficultylevel":"Medium",
@@ -38,7 +38,7 @@
   {
   "id": 2,
   "name": "Bicol Express",
-  "category": "Main dish",
+  "category": "main dish",
   "image": "static/images/bicolexpress.jpg",
   "servingsize":"5",
   "difficultylevel": "Medium ",
@@ -68,7 +68,7 @@
   {
     "id": 3,
     "name": "Mango Graham Cake",
-    "category": "Dessert",
+    "category": "dessert",
     "image": "static/images/mangograhamcake.jpg",
     "servingsize":"5",
     "difficultylevel": "Easy",
@@ -94,7 +94,7 @@
   {
     "id": 4,
     "name": "Beef Kare-Kare",
-    "category": "Main dish",
+    "category": "main dish",
     "image": "static/images/beefkarekare.jpg",
     "servingsize":"6",
     "difficultylevel": "Medium",
@@ -136,7 +136,7 @@
   {
     "id": 5,
     "name": "Peanut Butter Kiss Cookies",
-    "category": "Dessert",
+    "category": "dessert",
     "image": "static/images/peanutbutterkisscookies.jpg",
     "servingsize":"30",
     "difficultylevel": "Easy",
@@ -160,7 +160,7 @@
   {
     "id": 6,
     "name": "Vanilla Meringue Cookies",
-    "category": "Dessert",
+    "category": "dessert",
     "image": "static/images/vanillameringuecookies.jpg",
     "servingsize":"60",
     "difficultylevel": "Medium",
@@ -186,7 +186,7 @@
   {
     "id": 7,
     "name": "Pork Sinigang",
-    "category": "Main Dish",
+    "category": "main dish",
     "image": "static/images/porksinigang.jpg",
     "servingsize":"4",
     "difficultylevel": "Easy",
@@ -218,7 +218,7 @@
   {
     "id": 8,
     "name": "Smashed Potato",
-    "category": "Side Dish",
+    "category": "side dish",
     "image": "static/images/smashedpotatoes.jpg",
     "servingsize": "4",
     "difficulty level": "Easy",
@@ -246,7 +246,7 @@
   {
     "id": 9,
     "name": "French Fries all'Assassina",
-    "category": "Side Dish",
+    "category": "side dish",
     "image": "static/images/frenchfriesallassassina.jpg",
     "servingsize": "4",
     "difficultylevel": "Easy",
@@ -281,7 +281,7 @@
   {
     "id": 10,
     "name": "Garlic Bread",
-    "category": "Side Dish",
+    "category": "side dish",
     "image": "static/images/garlicbread.jpg",
     "servingsize": "6",
     "difficultylevel": "Easy",
@@ -307,7 +307,7 @@
   {
     "id": 11,
     "name": "Chicken Adobo",
-    "category": "Main Dish",
+    "category": "main dish",
     "image": "static/images/chickenadobo.jpg",
     "servingsize": "5",
     "difficultylevel": "Medium",
@@ -341,7 +341,7 @@
   {
     "id": 12,
     "name": "Chicken Tinola",
-    "category": "Main Dish",
+    "category": "main dish",
     "image": "static/images/chickentinola.jpg",
     "servingsize": "5",
     "difficulty level": "Medium",

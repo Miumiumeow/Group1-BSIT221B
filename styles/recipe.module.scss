@@ -5,6 +5,52 @@
     color: white;
 
     border-bottom: 1px solid white;
+
+    .category_buttons {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+    
+    .category_buttons button {
+        position: relative;
+        padding: 10px 30px;
+        margin: 0 10px;
+        border: none;
+        border-radius: 5px;
+        background-color: transparent;
+        color: #ffffff;
+        cursor: pointer;
+        transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .category_buttons button:hover{
+        color:  rgba(231, 174, 37, 0.54);
+    }
+    
+    .category_buttons button::after {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 0;
+        height: 1px;
+        background-color:  rgba(231, 174, 37, 0.54);
+        transition: width 0.3s ease;
+    }
+    
+    .category_buttons button:hover::after {
+        width: 100%;
+    }
+    
+    
+    .category_buttons button span {
+        position: relative;
+        z-index: 1;
+    }
+    
+
 }
 
 .search_bar {
