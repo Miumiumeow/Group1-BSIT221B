@@ -9,7 +9,7 @@ function Header() {
                 <img className={styles.navlogo} src='/static/images/savorscapeslogo.png'></img>
             </div>
             <div className={styles.mainnav}>
-                <a href='./.'>Home</a>
+                <a href='/'>Home</a>
                 <a href='./Recipes'>Recipes</a>
                 <a href='./about'>About Us</a>
             </div>
