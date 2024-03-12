@@ -1,7 +1,6 @@
 import fs from 'fs';
 import path from 'path';
 import styles from '@/styles/recipepage.module.scss';
-import Header from '@/components/recipeheader';
 import { Cinzel } from 'next/font/google';
 import { Crimson_Pro } from 'next/font/google';
 
@@ -13,8 +12,17 @@ const crimson = Crimson_Pro({ subsets: ['latin'] })
 function RecipeBox( {recipe} ){
     return(
         <>
-        <Header />
-        <div className={styles.recipe_container}>
+        <section className={styles.cont}>
+            <div className={styles.logobox}>
+                <img className={styles.navlogo} src='/static/images/savorscapeslogo.png'></img>
+            </div>
+            <div className={styles.recipenav}>
+                <a href='.../index'>Home</a>
+                <a href='../Recipes'>Recipes</a>
+                <a href='../about'>About Us</a>
+            </div>
+        </section>
+        <section className={styles.recipe_container}>
             <div key={recipe.id}>
                 <div>
 
@@ -73,7 +81,7 @@ function RecipeBox( {recipe} ){
                     </div>
                 </div>
             </div>
-        </div>
+        </section>
         </>
     )
 }
