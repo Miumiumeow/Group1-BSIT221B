@@ -6,7 +6,7 @@
   "image": "static/images/porksisig.jpg",
   "servingsize":"5",
   "difficultylevel":"Medium",
-  "time": { "preptime": "30 Minutes", "cooktime": "1 Hour and 30 Minutes"},
+  "time": { "preptime": "30 Minutes", "cooktime": "1 Hour and 30 Minutes", "totaltime": "2 hours"},
   "classification":{ "cuisinetype": "Filipino Dish", "originplace": "Philippines" },
   "ingredients":
   [
@@ -42,7 +42,7 @@
   "image": "static/images/bicolexpress.jpg",
   "servingsize":"5",
   "difficultylevel": "Medium ",
-  "time": {"preptime":"5 Minutes" , "cooktime":"55 Minutes" },
+  "time": {"preptime":"5 Minutes" , "cooktime":"55 Minutes", "totaltime": "1 Hour"},
   "classification": { "cuisinetype": "Filipino Dish", "originplace": "Bicol, Philippines"},
   "ingredients":
   [
@@ -72,7 +72,7 @@
     "image": "static/images/mangograhamcake.jpg",
     "servingsize":"5",
     "difficultylevel": "Easy",
-    "time": {"preptime":"10 Minutes" , "cooktime":"4 Hours" },
+    "time": {"preptime":"10 Minutes" , "cooktime":"4 Hours", "totaltime": "4 Hours and 10 Minutes"},
     "classification": { "cuisinetype": "Filipino Dish", "originplace": "Philippines"},
     "ingredients":
     [
@@ -98,7 +98,7 @@
     "image": "static/images/beefkarekare.jpg",
     "servingsize":"6",
     "difficultylevel": "Medium",
-    "time": {"preptime":"15 Minutes" , "cooktime":"2 Hours" },
+    "time": {"preptime":"15 Minutes" , "cooktime":"2 Hours", "totaltime": "2 Hours and 15 Minutes" },
     "classification": { "cuisinetype": "Filipino Dish", "originplace": "Philippines"},
     "ingredients":
     [
@@ -140,7 +140,7 @@
     "image": "static/images/peanutbutterkisscookies.jpg",
     "servingsize":"30",
     "difficultylevel": "Easy",
-    "time": {"preptime":"20 Minutes" , "cooktime":"10 Minutes" },
+    "time": {"preptime":"20 Minutes" , "cooktime":"10 Minutes", "totaltime": "30 Minutes per batch" },
     "classification": { "cuisinetype": "Filipino Dish", "originplace": "Bicol, Philippines"},
     "ingredients":
     [
@@ -164,7 +164,7 @@
     "image": "static/images/vanillameringuecookies.jpg",
     "servingsize":"60",
     "difficultylevel": "Medium",
-    "time": {"preptime":"20 Minutes" , "cooktime":"40+ Minutes" },
+    "time": {"preptime":"20 Minutes" , "cooktime":"40+ Minutes", "totaltime": "1 Hour" },
     "classification": { "cuisinetype": "French Dish", "originplace": "France"},
     "ingredients":
     [
@@ -190,7 +190,7 @@
     "image": "static/images/porksinigang.jpg",
     "servingsize":"4",
     "difficultylevel": "Easy",
-    "time": {"preptime":"20 Minutes" , "cooktime":"1 Hour" },
+    "time": {"preptime":"20 Minutes" , "cooktime":"1 Hour", "totaltime": "1 Hour and 20 Minutes" },
     "classification": { "cuisinetype": "Filipino Dish", "originplace": "Philippines"},
     "ingredients":
     [
@@ -222,7 +222,7 @@
     "image": "static/images/smashedpotatoes.jpg",
     "servingsize": "4",
     "difficulty level": "Easy",
-    "time": {"preptime": "30 Minutes" , "cooktime": "25 Minutes" },
+    "time": {"preptime": "30 Minutes" , "cooktime": "25 Minutes", "totaltime": "55 Minutes" },
     "classification": { "cuisinetype": "America Dish", "originplace": "United States"},
     "ingredients": 
     [
@@ -250,7 +250,7 @@
     "image": "static/images/frenchfriesallassassina.jpg",
     "servingsize": "4",
     "difficultylevel": "Easy",
-    "time": {"preptime": "10 Minutes" , "cooktime": "30 Minutes" },
+    "time": {"preptime": "10 Minutes" , "cooktime": "30 Minutes", "totaltime": "40 Minutes" },
     "classification": { "cuisinetype": "Italian Dish", "originplace": "Italy"},
     "ingredients":[
       "3 tablespoons tomato paste",
@@ -285,7 +285,7 @@
     "image": "static/images/garlicbread.jpg",
     "servingsize": "6",
     "difficultylevel": "Easy",
-    "time": {"preptime": "10 Minutes" , "cooktime": "10 Minutes" },
+    "time": {"preptime": "10 Minutes" , "cooktime": "10 Minutes", "totaltime": "20 Minutes" },
     "classification": { "cuisinetype:": "Italian Dish", "originplace": "Italy"},
     "ingredients":
     [
@@ -311,7 +311,7 @@
     "image": "static/images/chickenadobo.jpg",
     "servingsize": "5",
     "difficultylevel": "Medium",
-    "time": {"preptime":"5  Minutes" , "cooktime":"35 Minutes" },
+    "time": {"preptime":"5  Minutes" , "cooktime":"35 Minutes", "totaltime": "40 Minutes" },
     "classification": { "cuisinetype": "Filipino Dish", "originplace": "Philippines"},
     "ingredients":
     [
@@ -345,7 +345,7 @@
     "image": "static/images/chickentinola.jpg",
     "servingsize": "5",
     "difficulty level": "Medium",
-    "time": {"preptime":"10 Minutes" , "cooktime":"1 Hour" },
+    "time": {"preptime":"10 Minutes" , "cooktime":"1 Hour", "totaltime": "1 Hour and 10 Minutes" },
     "classification": { "cuisinetype": "Filipino Dish", "originplace": "Philippines"},
     "ingredients":
     [

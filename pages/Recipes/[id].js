@@ -16,11 +16,12 @@ function RecipeBox( {recipe} ){
         <Header />
         <div className={styles.recipe_container}>
             <div key={recipe.id}>
-
                 <div>
-    
-                    <a href="/Recipes" class={styles.button}> <img src="/static/images/backbtn.png" alt="Back" /></a>
-                
+
+                    <div className={styles.button_container}>
+                        <a href="/Recipes" class={styles.button}> <img src="/static/images/backbtn.png" alt="Back" /></a>
+                    </div>
+
                     <div className={styles.image_container}>
                         <img src={`/./${recipe.image}`} alt={recipe.name}/>
                     </div>
@@ -46,13 +47,13 @@ function RecipeBox( {recipe} ){
                         
                             <div className={styles.right_item}>
                                 <p>{"Cooking Time: " + recipe.time.cooktime}</p>
-                                <p>{"Number of Servings: " + recipe.servingsize}</p>
+                                <p>{"Number of Servings: " + recipe.servingsize} servings </p>
                             </div>
                         </div>
 
                         <div className={styles.bottom_container}>
                             <div className={styles.leftbtm_item}>
-                                <text>Ingredients:</text>
+                                <h2>Ingredients:</h2>
                                 <ul>
                                 {recipe.ingredients.map((ingredients, index) => (
                                     <li key={index}>{ingredients}</li>
@@ -61,7 +62,7 @@ function RecipeBox( {recipe} ){
                             </div>
 
                             <div className={styles.rightbtm_item}>
-                                <text>Steps:</text>
+                                <h2>Steps:</h2>
                                 <ol>
                                 {recipe.procedure.map((procedure, index) => (
                                     <li key={index}>{procedure}</li>

@@ -49,7 +49,7 @@ function Recipe({ recipes }) {
 
                         <div key ={i.id}>
 
-                            <img src={i.image} alt={i.name + 'Picture'}/>
+                            <a href={'/Recipes/'+ i.id }><img src={i.image} alt={i.name + 'Picture'}/></a>
 
                             <div className={cinzel.className}>
                                 <p className={styles.name}>{i.name}</p>
@@ -58,7 +58,7 @@ function Recipe({ recipes }) {
                             <div className={crimson.className}>
                                 <p className={styles.variables}> Country Origin: {i.classification.originplace}</p>
                                 <p className={styles.variables}> Difficulty Level: {i.difficultylevel}</p>
-                                <p className={styles.variables}> Total Time: {i.time.preptime}</p>
+                                <p className={styles.variables}> Total Time: {i.time.totaltime}</p>
                             </div>
                             
                             <a href={'/Recipes/'+ i.id } class={styles.viewbtn}> <span> View More </span> </a>
