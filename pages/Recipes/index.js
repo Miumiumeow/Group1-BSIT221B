@@ -49,7 +49,7 @@ function Recipe({ recipes }) {
 
                         <div key ={i.id}>
 
-                            <img src={i.image}/>
+                            <img src={i.image} alt={i.name + 'Picture'}/>
 
                             <div className={cinzel.className}>
                                 <p className={styles.name}>{i.name}</p>

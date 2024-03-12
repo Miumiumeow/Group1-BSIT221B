@@ -27,21 +27,19 @@ function about() {
             <section className={styles.goal}>
 
                 <div className={styles.left}>
-                    <img className={styles.abtdesign} src='static/images/bun.png'></img><br></br>
-                    <img className={styles.abtdesign} src='static/images/tomato.png'></img>
+                    <img className={styles.abtdesign} src='static/images/bun.png' alt='Bun Icon'></img><br></br>
+                    <img className={styles.abtdesign} src='static/images/tomato.png' alt='Tomato Icon'></img>
                 </div>
 
                 <div className={styles.mid}>
                     <br></br>
                     <h1> Our Goal </h1>
                     <p>To inspire cooks of all skill levels to discover new culinary landscapes from the comfort of their own kitchens. We want to make cooking a fun experience, whether you're making a quick weeknight supper or preparing a feast for a special occasion. </p>
-                    <br></br>
-                    <a href="./Recipes" class={styles.button}> Browse Recipes </a>
                 </div>
 
                 <div className={styles.right}>
-                    <img className={styles.abtdesign} src='static/images/mushroom.png'></img><br></br>
-                    <img className={styles.abtdesign} src='static/images/steak.png'></img>
+                    <img className={styles.abtdesign} src='static/images/mushroom.png' alt='Mushroom Icon'></img><br></br>
+                    <img className={styles.abtdesign} src='static/images/steak.png' alt='Steak Icon'></img>
                 </div>
 
             </section>

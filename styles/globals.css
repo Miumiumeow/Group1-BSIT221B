@@ -2,7 +2,7 @@ body{
   margin: 0;
 
   background-image: url(/static/images/bgimage.png);
-  background-size: cover;
+  background-size: auto;
 
   text-align: center;
 }

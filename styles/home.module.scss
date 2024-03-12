@@ -118,3 +118,72 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .cont{
+    .leftdiv{
+      width: 100%;
+
+      .homelogo{
+        padding-top: 5%;
+        width: 90%;
+      }
+        
+      p.welcome{
+        font-size: 45px;
+        margin-top: -1%;
+      }
+        
+      p.desc{
+        font-size: 20px;
+        margin-top: -5%;
+      }
+
+      .button{
+        margin: -2%;
+        adding: 12px 60px;
+        font-size: 20px;
+      }
+    }
+
+    .rightdiv{
+      display: none;
+    }
+  }
+}
+
+@media screen and (max-width: 576px){
+  .cont{
+    .leftdiv{
+      width: 100%;
+      .mainnav a{
+        font-size: 20px;
+        }
+
+      .homelogo{
+        margin-top: 6%;
+        width: 90%;
+      }
+        
+      p.welcome{
+        font-size: 40px;
+        margin-top: 4%;
+      }
+        
+      p.desc{
+        font-size: 18px;
+        margin: -5% -8% 0%;
+      }
+
+      .button{
+        margin: -6%;
+        padding: 12px 60px;
+        font-size: 20px;
+      }
+    }
+
+    .rightdiv{
+      display: none;
+    }
+  }
+}
