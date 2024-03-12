@@ -1,7 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import styles from '@/styles/recipepage.module.scss';
-import Header from '@/components/header';
+import Header from '@/components/recipeheader';
 import { Cinzel } from 'next/font/google';
 import { Crimson_Pro } from 'next/font/google';
 
